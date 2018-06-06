@@ -1,10 +1,7 @@
-package com.arocketman.github;
+package com.bankthe1.demo;
 
-import com.arocketman.github.config.CustomUserDetails;
-import com.arocketman.github.entities.Role;
-import com.arocketman.github.entities.User;
-import com.arocketman.github.repositories.UserRepository;
-import com.arocketman.github.service.UserService;
+import java.util.Arrays;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,7 +9,11 @@ import org.springframework.security.config.annotation.authentication.builders.Au
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-import java.util.Arrays;
+import com.bankthe1.demo.config.CustomUserDetails;
+import com.bankthe1.demo.entities.Role;
+import com.bankthe1.demo.entities.User;
+import com.bankthe1.demo.repositories.UserRepository;
+import com.bankthe1.demo.service.UserService;
 
 @SpringBootApplication
 public class BlogApplication {
@@ -39,11 +40,12 @@ public class BlogApplication {
 	}
 
 	/**
-	 * We return an istance of our CustomUserDetails.
+	 *Return an intance of our CustomUserDetails.
 	 * @param repository
 	 * @return
 	 */
 	private UserDetailsService userDetailsService(final UserRepository repository) {
 		return username -> new CustomUserDetails(repository.findByUsername(username));
 	}
+	
 }

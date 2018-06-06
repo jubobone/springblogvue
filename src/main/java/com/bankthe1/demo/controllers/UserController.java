@@ -1,9 +1,10 @@
-package com.arocketman.github.controllers;
+package com.bankthe1.demo.controllers;
 
-import com.arocketman.github.entities.Role;
-import com.arocketman.github.entities.User;
-import com.arocketman.github.pojos.UserRegistration;
-import com.arocketman.github.service.UserService;
+import com.bankthe1.demo.service.UserService;
+import com.bankthe1.demo.entities.Role;
+import com.bankthe1.demo.entities.User;
+import com.bankthe1.demo.pojos.UserRegistration;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.oauth2.provider.token.TokenStore;

@@ -1,4 +1,4 @@
-package com.arocketman.github;
+package com.bankthe1.demo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

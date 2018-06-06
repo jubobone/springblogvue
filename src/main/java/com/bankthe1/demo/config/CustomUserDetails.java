@@ -1,10 +1,11 @@
-package com.arocketman.github.config;
+package com.bankthe1.demo.config;
 
-import com.arocketman.github.entities.Role;
-import com.arocketman.github.entities.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
+
+import com.bankthe1.demo.entities.Role;
+import com.bankthe1.demo.entities.User;
 
 import java.util.ArrayList;
 import java.util.Collection;

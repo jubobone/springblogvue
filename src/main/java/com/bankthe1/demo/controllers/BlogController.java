@@ -1,13 +1,14 @@
-package com.arocketman.github.controllers;
+package com.bankthe1.demo.controllers;
 
-import com.arocketman.github.config.CustomUserDetails;
-import com.arocketman.github.entities.Comment;
-import com.arocketman.github.entities.Post;
-import com.arocketman.github.entities.User;
-import com.arocketman.github.pojos.CommentPojo;
-import com.arocketman.github.service.CommentService;
-import com.arocketman.github.service.PostService;
-import com.arocketman.github.service.UserService;
+import com.bankthe1.demo.service.CommentService;
+import com.bankthe1.demo.service.PostService;
+import com.bankthe1.demo.service.UserService;
+import com.bankthe1.demo.config.CustomUserDetails;
+import com.bankthe1.demo.entities.Comment;
+import com.bankthe1.demo.entities.Post;
+import com.bankthe1.demo.entities.User;
+import com.bankthe1.demo.pojos.CommentPojo;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;

@@ -1,8 +1,9 @@
-package com.arocketman.github.repositories;
+package com.bankthe1.demo.repositories;
 
-import com.arocketman.github.entities.Comment;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+import com.bankthe1.demo.entities.Comment;
 
 import java.util.List;
 

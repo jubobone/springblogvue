@@ -1,4 +1,4 @@
-package com.arocketman.github.entities;
+package com.bankthe1.demo.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

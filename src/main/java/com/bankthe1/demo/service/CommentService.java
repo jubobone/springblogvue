@@ -1,8 +1,9 @@
-package com.arocketman.github.service;
+package com.bankthe1.demo.service;
 
-import com.arocketman.github.entities.Comment;
-import com.arocketman.github.pojos.CommentPojo;
-import com.arocketman.github.repositories.CommentRepository;
+import com.bankthe1.demo.entities.Comment;
+import com.bankthe1.demo.pojos.CommentPojo;
+import com.bankthe1.demo.repositories.CommentRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

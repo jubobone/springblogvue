@@ -1,4 +1,4 @@
-package com.arocketman.github.config;
+package com.bankthe1.demo.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;

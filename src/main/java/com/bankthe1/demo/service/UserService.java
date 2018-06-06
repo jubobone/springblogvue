@@ -1,7 +1,8 @@
-package com.arocketman.github.service;
+package com.bankthe1.demo.service;
 
-import com.arocketman.github.entities.User;
-import com.arocketman.github.repositories.UserRepository;
+import com.bankthe1.demo.entities.User;
+import com.bankthe1.demo.repositories.UserRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;

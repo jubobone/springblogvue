@@ -1,8 +1,9 @@
-package com.arocketman.github.service;
+package com.bankthe1.demo.service;
 
-import com.arocketman.github.entities.Post;
-import com.arocketman.github.entities.User;
-import com.arocketman.github.repositories.PostRepository;
+import com.bankthe1.demo.entities.Post;
+import com.bankthe1.demo.entities.User;
+import com.bankthe1.demo.repositories.PostRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

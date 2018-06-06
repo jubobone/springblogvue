@@ -1,4 +1,4 @@
-package com.arocketman.github.pojos;
+package com.bankthe1.demo.pojos;
 
 public class CommentPojo {
 
